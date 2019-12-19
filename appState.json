@@ -1,0 +1,87 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "08852c6b-0982-4d94-b90e-cde36f22a785": {
+        "id": "08852c6b-0982-4d94-b90e-cde36f22a785",
+        "parent": null,
+        "name": "JsonReopen",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "b5f69d9c-b613-42d0-944b-81ff1eaf279c",
+          "b4759802-b989-4199-abce-95a364b720c7"
+        ],
+        "isRemovable": false,
+        "filePath": "JsonReopen"
+      },
+      "b5f69d9c-b613-42d0-944b-81ff1eaf279c": {
+        "id": "b5f69d9c-b613-42d0-944b-81ff1eaf279c",
+        "parent": "08852c6b-0982-4d94-b90e-cde36f22a785",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "JsonReopen/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "b4759802-b989-4199-abce-95a364b720c7": {
+        "id": "b4759802-b989-4199-abce-95a364b720c7",
+        "parent": "08852c6b-0982-4d94-b90e-cde36f22a785",
+        "name": "myJson.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "JsonReopen/myJson.json"
+      }
+    },
+    "rootNode": "08852c6b-0982-4d94-b90e-cde36f22a785",
+    "openFiles": [
+      "b5f69d9c-b613-42d0-944b-81ff1eaf279c",
+      "b4759802-b989-4199-abce-95a364b720c7"
+    ],
+    "currentFileId": "b4759802-b989-4199-abce-95a364b720c7",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "JsonReopen",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576750876542
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "JsonReopen",
+      "url": "https://github.com/zgma-test/JsonReopen"
+    }
+  }
+}
